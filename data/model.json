@@ -1,10 +1,29 @@
 {
-  "id": "MiniMax-Hailuo-2.3",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-13T02:50:00Z",
-  "prices": {},
-  "rates": {},
-  "unit": null,
-  "hook": "from $0.0488 per second at 768P (1080P $0.072)",
-  "model_page": "https://apimart.ai/model/minimax-hailuo-2-3"
+  "extracted_at": "2026-10-13T06:42:56Z",
+  "prices": {
+    "default": {
+      "list": 0.0375,
+      "effective": 0.03
+    },
+    "4K": {
+      "list": 0.05,
+      "effective": 0.04
+    }
+  },
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }
